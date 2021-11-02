@@ -1,0 +1,26 @@
+/* $_ API:
+Interfaces (e.g buttons) provide developer the means of controlling its interaction, while abstracting away its implementation
+
+APIs like Media player that are provided by th OS of the device. This Media player API abstracts away the details of how audio is send to the hardware. The developer just have to call play method of Media player API. And most of the time, the audio isn't stored on the device, it's been streamed over the network and for that a Web based API call has been made over the internet to get the data.
+So it's actually APIs all the way down to the 1's and 0's.
+
+UI (User Interface) is made for the user of the apllication, API is made for the application developer to use and extend their application.
+
+The Programming languages also provide many APIs. For example, the toUpperCase() method on string converts whole string to uppercase and we need not to specify how to do it.
+
+When we write code for the web and it works on any on the browser. It works because there is a set of Web APIs that all web-browsers must implement.
+
+REMOTE APIs: Often times, we don't have space on our local machines for all the data is available (like all the songs in my playlist on spotify). With remotes APIs, we don't need to have that much space. The remote API does all the searching/processing while being very quick.
+Bcz an API removes the limitation of our local machine, we can gain access to huge amount of computational power, while that processing is happening elsewhere: in the cloud.
+
+REST (Representational State Transfer) is an architectural style that allows the developers to interact with specific resources over the web. With this style, everyone began offering and consuming APIs over the internet.
+Most APIs are written using the REST style, we call such APIs Restful.
+
+HOW WEB WORKS: The browser on our computer is a web Client which is used to connect to a server, we do this by putting a URL in the adress bar.
+
+REST APIs sit on top of web technology. Much like the web, the client makes a request to a server. The client in this case is going to be developer's program which is using some library to create the request to the server. The protocol used is HTTP which is Stateless (the server won't remember anything about the particular client). If you want to maintain state like login details then you have to send it each requests, which is done using headers.
+The Program sends a GET request to a URL then the server responds with a data.
+
+$_ To Authenticate a Phone Number of Twilio: search for "Verified Caller IDs" at Twilio: (https://console.twilio.com/us1/develop/phone-numbers/manage/verified?frameUrl=/console/phone-numbers/verified).
+
+*/
